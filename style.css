@@ -1,0 +1,40 @@
+/* ===== CSS RESET ===== */
+
+/* Remove default margin and padding from all elements */
+*{
+    margin:0; /* removes browser default margins */
+    padding:0; /* removes browser default padding */
+    box-sizing:border-box; /* ensures padding and border are included in width calculation */
+}
+
+
+/* ===== GLOBAL BODY STYLING ===== */
+
+body{
+    font-family: Arial, Helvetica, sans-serif; /* sets default font family for the website */
+    background-color:#ffffff; /* sets overall website background color */
+    color:#000000; /* default text color */
+}
+
+
+/* ===== GLOBAL CONTAINER ===== */
+
+.container{
+    width:1200px; /* industry standard container width used by many ecommerce websites */
+    margin:0 auto; /* horizontally centers the container */
+}
+
+
+/* ===== REMOVE LINK STYLES ===== */
+
+a{
+    text-decoration:none; /* removes underline from links */
+    color:inherit; /* ensures links inherit text color from parent */
+}
+
+
+/* ===== REMOVE LIST STYLES ===== */
+
+ul{
+    list-style:none; /* removes default bullet points from lists */
+}
