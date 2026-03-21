@@ -1,0 +1,58 @@
+/* ===== NAVBAR ===== */
+
+.navbar{
+    width:100%; /* navbar spans entire screen width */
+    background:white; /* white background */
+    border-bottom:1px solid #eee; /* subtle bottom border */
+}
+
+
+/* ===== NAVBAR INNER CONTAINER ===== */
+
+.navbar .container{
+    display:flex; /* flex layout for logo, links and icons */
+    align-items:center; /* vertically center elements */
+    justify-content:space-between; /* distribute elements across width */
+    padding:15px 0; /* vertical spacing */
+}
+
+
+/* ===== LOGO IMAGE ===== */
+
+.logo-image{
+    height:40px; /* controls logo height */
+}
+
+
+/* ===== NAV LINKS ===== */
+
+.nav-links{
+    display:flex; /* aligns links horizontally */
+    gap:30px; /* spacing between links */
+}
+
+
+/* ===== NAV LINK TEXT ===== */
+
+.nav-links a{
+    font-size:16px; /* font size */
+    font-weight:500; /* medium bold text */
+    color:#000; /* black text */
+}
+
+
+/* ===== NAV ICON CONTAINER ===== */
+
+.nav-icons{
+    display:flex; /* aligns icons horizontally */
+    gap:20px; /* spacing between icons */
+}
+
+
+/* ===== NAV ICON IMAGES ===== */
+
+.nav-icons img{
+    width:20px; /* icon width */
+    height:20px; /* icon height */
+    cursor:pointer; /* pointer cursor on hover */
+}
