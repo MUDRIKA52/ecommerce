@@ -1,0 +1,84 @@
+/* ===== SALE BAR ===== */
+
+.top-sale-bar{
+    background-color:#c9a27e; /* pale brown background color */
+    color:white; /* text color white */
+    text-align:center; /* centers the text horizontally */
+    padding:8px 0; /* vertical spacing */
+    font-size:14px; /* smaller font typical for announcement bars */
+}
+
+
+/* ===== SEARCH BAR SECTION ===== */
+
+.search-bar-section{
+    background-color:#f3f3f3; /* light grey background */
+    padding:15px 0; /* vertical spacing above and below */
+}
+
+
+/* ===== SEARCH ROW LAYOUT ===== */
+
+.search-bar-section .container{
+    display:flex; /* enables flexbox layout */
+    align-items:center; /* vertically aligns items */
+    justify-content:space-between; /* creates spacing between left text and search bar */
+}
+
+
+/* ===== LEFT TEXT ===== */
+
+.search-left-text{
+    font-size:14px; /* small informational text */
+}
+
+
+/* ===== SEARCH CONTAINER ===== */
+
+.search-container{
+    display:flex; /* aligns dropdown, input and button in one row */
+    align-items:center; /* vertically aligns elements */
+    border:1px solid #ddd; /* subtle border around search bar */
+    background:white; /* white background for input area */
+}
+
+
+/* ===== CATEGORY DROPDOWN ===== */
+
+.category-dropdown{
+    border:none; /* removes default border */
+    padding:10px; /* spacing inside dropdown */
+    font-size:14px; /* text size */
+    outline:none; /* removes blue focus outline */
+    background:#f8f8f8; /* slightly grey background */
+}
+
+
+/* ===== SEARCH INPUT ===== */
+
+.search-input{
+    border:none; /* removes border */
+    padding:10px; /* spacing inside input */
+    width:300px; /* width of search field */
+    font-size:14px; /* input text size */
+    outline:none; /* removes focus outline */
+}
+
+
+/* ===== SEARCH BUTTON ===== */
+
+.search-btn{
+    border:none; /* removes button border */
+    background:#000; /* black background */
+    padding:10px 15px; /* spacing around icon */
+    cursor:pointer; /* changes cursor to pointer */
+}
+
+
+/* ===== SEARCH ICON ===== */
+
+.search-btn img{
+    width:16px; /* icon width */
+    height:16px; /* icon height */
+    filter:invert(1); /* makes dark icon white */
+}
